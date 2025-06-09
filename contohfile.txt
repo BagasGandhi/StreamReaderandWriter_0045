@@ -1,0 +1,8 @@
+cd "d:\KULIAH\Pemrograman Dasar\Pemograman Dasar\pertemuan 13\" ; if ($?) { g++ ioFilewithpath.cpp -o ioFilewithpath } ; if ($?) { .\ioFilewithpath }
+
+
+l
+l
+l
+l
+l
