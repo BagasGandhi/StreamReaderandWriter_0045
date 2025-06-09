@@ -4,5 +4,13 @@
 using namespace std;
 
 int main() {
-   
+   string baris;
+
+   // operasi file dalam mode menulis.
+   ofstream outfile;
+   // menunjuk ke sebuah nama file untuk membuka
+   outfile.open("contohfile.txt");
+
+   cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
 }
