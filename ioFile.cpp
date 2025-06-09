@@ -26,5 +26,10 @@ int main() {
     // selesai dalam menulis sekarang tutup filenya
     outfile.close();
 
+    //operasi file dalam mode membaca
+    ifstream infile;
+    // menunjuk ke sebuah file untuk mmembuka
+    infile.open("contohfile.txt");
+
     
 }
