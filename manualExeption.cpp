@@ -8,4 +8,14 @@ int main()
         throw 0.5; // melemparkan sebuah interger maka
         cout << "Pertnyataan tidak akan dieksekusi" << endl;
     }
+    catch (int a) {
+        //blok ini akan dieksekusi 
+        cout << "Pengecualian akan dieksekusi" << endl;
+    }
+    catch (...) {
+        /*jika selain interger maka block ini akan dieksekusi*/
+        cout << "default Pengecualian dieksekusi" << endl;
+    }
+
+    return 0;
 }
